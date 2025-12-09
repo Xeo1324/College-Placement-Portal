@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm" novalidate>
+            <h1>Event Registration</h1>
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <div class="error-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <div class="error-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="event">Select Event:</label>
+                <select id="event" name="event" required>
+                    <option value="">--Please choose an option--</option>
+                    <option value="tech-conference">Tech Conference 2025</option>
+                    <option value="career-fair">Career Fair 2025</option>
+                    <option value="alumni-meet">Alumni Meet 2025</option>
+                </select>
+                <div class="error-message"></div>
+            </div>
+            <button type="submit">Register</button>
+            <p id="successMessage" class="success-message"></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

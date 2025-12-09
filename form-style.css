@@ -1,0 +1,28 @@
+body {
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+background-color: #22223d;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container {
+background: #fff;
+border-radius: 8px;
+padding: 2em;
+width: 100%;
+max-width: 400px;
+}
+
+.h2{
+text-align: center;
+color: #333;
+}
+
+.h1{
+text-align: center;
+color: #7e2a2a;    
+}
+/* ... other styles ... */
